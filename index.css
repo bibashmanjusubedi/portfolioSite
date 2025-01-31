@@ -227,6 +227,7 @@
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
+                height: auto;
             }
         
             .secondSection .vertical {
@@ -240,6 +241,13 @@
                 width: auto;
             }
         
+            .vertical-title,
+            .vertical-desc {
+                text-align: center;
+                width: auto;
+            }
+            
+
             .footer {
                 flex-direction: column;
                 align-items: center;
@@ -252,3 +260,6 @@
                 margin-bottom: 15px;
             }
         }
+
+    
+        
