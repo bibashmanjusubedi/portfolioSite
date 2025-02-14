@@ -196,6 +196,32 @@
             nav ul li {
                 margin: 10px 0;
             }
+
+
+            .secondSection .vertical {
+                width: 100%;
+                background: unset;
+                display: flex;
+                gap: 0.5em;
+              }
+            
+              .secondSection .vertical-content {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5em;
+              }
+            
+              .image-top,
+              .secondSection .vertical-title,
+              .secondSection .vertical-desc {
+                top: unset;
+                left: unset;
+                text-align: unset;
+              }
+            
+              .secondSection .box{
+                background:unset;
+              }
         
             .firstSection {
                 flex-direction: column;
